@@ -1,0 +1,496 @@
+*{margin: 0px;
+padding: 0px;
+}
+header{
+width: 100%;
+height: 70px;
+}
+
+.headerwrapper{
+width: 95%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 30px;
+}
+@media (max-width:750px) {
+    .headerwrapper{
+        display: flex;
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .headerwrapper button{
+        display: none;
+    }
+   .headerwrapper nav ul li a{
+        font-size: 13px;
+    }
+    .headerwrapper nav ul li{
+        margin-left: 10px;
+    }
+}
+nav ul{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+nav ul li{
+margin-left: 30px;
+list-style: none;
+}
+
+nav ul li a{
+text-decoration: none;
+text-transform: capitalize;
+font-size: 16px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+color: rgb(65, 65, 235);
+}
+nav ul li a:hover{
+    color: black;
+}
+
+.headerwrapper button{
+width: 100px;
+height: 30px;
+border-radius: 50px;
+border: none;
+background-color: hsl(12, 78%, 55%);
+color: white;
+text-transform: capitalize;
+} 
+.headerwrapper button:hover{
+    border-color: hsl(12, 78%, 55%);
+    background-color: white;
+    color: hsl(12, 78%, 55%);
+
+}
+main{
+    width: 100%;
+}
+@media (max-width: 750px){
+    .every{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    main .mainwrapper{
+        width: 100%;
+    }
+    .every .everyone{
+        width: 100%;
+        margin: auto;
+    }
+  .every .everyone p{
+       font-size: 20px;
+       width: 100%;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       text-transform: lowercase;
+   } 
+   .mainwrapper .every .logo{
+    width: 100%;
+    margin-top: 50px;
+    }
+    
+    .mainwrapper .every .logo img{
+    width: 300px;
+    margin-left: 50px;
+    }
+    .mainwrapper .every .everyone button{
+     justify-content: center;
+     margin-left: 170px;
+     margin-top: 30px;
+}
+}
+.mainwrapper{
+    width: 70%;
+    margin: auto;
+}
+
+.every{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 100px;
+width: 90%;
+}
+.everyone{
+width: 50%;
+}
+.everyone h1{
+font-size: 50px;
+font-weight: 700;
+line-height: 1.5;
+margin-bottom: 30px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-transform: capitalize;
+}
+
+.everyone p{
+    font-size: 15px;
+    line-height: 1;
+    text-align: justify;
+    color: rgb(202, 192, 192);
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    width: 80%;
+}
+
+.every .logo{
+width: 50%;
+}
+
+.every .logo img{
+width: 380px;
+margin-left: 50px;
+}
+
+.everyone button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(12, 78%, 55%);
+    color: white;
+    text-transform: capitalize;
+}
+.everyone button:hover{
+border-color: hsl(12, 78%, 55%);
+    background-color: white;
+    color: hsl(12, 78%, 55%);
+}
+.complexity{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+@media (max-width: 750px){
+    .complexity{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .complexity .about{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .complexity .track{
+        width: 90%;
+        margin: auto;
+    }
+
+   .complexity .track .card button{
+        width: 80px;
+        height: 40px;
+    }
+    .complexity .track .card h1{
+    font-size: 23px;
+    font-weight: bold;
+    width: 80%;
+    margin-left: 10px;
+    }
+    
+    .complexity .track .card p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    }
+}
+.about{
+width: 50%;
+}
+
+.about h2{
+font-size: 35px;
+line-height: 1.5;
+color: black;
+}
+.about p{
+    font-size: 15px;
+    line-height: 2;
+    color: black;
+width: 80%;
+
+}
+.track{
+    width: 50%;
+}
+
+.card{
+    width: 85%;
+}
+
+.buttonwrapper{
+    display: flex;
+    width: 100%;
+    
+}
+.card button{
+    width: 50px;
+    height: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(12, 78%, 55%);
+    color: white;
+    text-transform: capitalize;
+}
+.card h1{
+font-size: 15px;
+font-weight: bold;
+width: 80%;
+margin-left: 10px;
+}
+
+.card p{
+margin-bottom: 30px;
+font-size: 14px;
+line-height: 2;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@media (max-width: 750px){
+    .people.peoplewrapper{
+        width: 95%;
+        margin: auto;
+    }
+    .people .peoplewrapper h1{
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    .people .peoplewrapper .cardWrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .people .peoplewrapper .cardWrapper  .card{
+        width: 80%;
+        margin: auto;
+        margin-top: 70px;
+    }
+    .people .peoplewrapper button{
+        display: none;
+    }
+}
+.peoplewrapper{
+    width: 85%;
+    margin: auto;
+}
+.peoplewrapper h1{
+text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sanserif;
+}
+
+.cardWrapper{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.cardWrapper > .card{
+    width: 32%;
+    background: #cecece;
+    margin: 10px;
+    position: relative;
+}
+
+
+.imageC{
+    width: 70px;
+    position: absolute;
+    top: -10%;
+    right: 39%;
+}
+
+
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+ .peoplewrapper button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(12, 78%, 55%);
+    color: white;
+    text-transform: capitalize;
+    margin-top: 100px; 
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+
+.peoplewrapper button:hover{
+    border-color: hsl(12, 78%, 55%);
+    background-color: white;
+    color: hsl(12, 78%, 55%);
+
+}
+@media (max-width: 750px){
+    .simplify{
+        margin-top: 100px;
+        width: 100%;
+        }
+        
+        .simplify .simplifywrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        }
+        
+        .simplify .simplifywrapper h1{
+        font-size: 17px;
+        width: 70%;
+        align-items: center;
+        margin-top: 40px;
+        }
+          
+}
+.simplify{
+width: 100%;
+height: 100px;
+background-color: hsl(12, 78%, 55%);
+}
+
+.simplifywrapper{
+width: 70%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.simplifywrapper h1{
+color: white;
+font-size: 25px;
+width: 50%;
+align-items: center;
+margin-top: 25px;
+}
+
+.simplifywrapper button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    color: hsl(12, 78%, 55%);
+   background-color: white; 
+    text-transform: capitalize; 
+    margin-top: 25px;
+}
+
+
+@media (max-width: 750px){
+    .copywright .copywrightwrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        justify-content: flex-start;
+    }
+    .copywright .copywrightwrapper .picture .picture2{
+        justify-content: flex-start;
+        margin-bottom: 50px;
+    }
+    .copywright .copywrightwrapper .picture .picture2 img{
+        margin-left: 15px;
+    }
+    .copywright .copywrightwrapper .update h1{
+        text-align: center;
+    }
+}
+.copywright{
+    width: 100%;
+    background-color: black;
+    }
+.copywrightwrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+}
+
+.picture{
+display: grid;
+grid-template-columns: 1fr;
+}
+
+.picture1{
+margin-top: 30px;
+}
+.picture2{
+    display: flex;
+margin-top: 40px;
+justify-content: space-between;
+}
+.navwrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.navwrapper ul li{
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;   
+}
+
+.update{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.update1{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 30px;
+   
+}
+.formgroup input{
+border-radius: 40px;
+width: 280px;
+height: 40px;
+border: 1px solid hsl(12, 78%, 55%) ;
+}
+
+.update button{
+border-radius: 40px;
+width: 50px;
+height: 40px;
+border: 1px solid hsl(12, 78%, 55%) ;
+text-transform: capitalize;
+}
+.update h1{
+color: gray;
+font-size: 15px;
+text-transform: capitalize;
+margin-top: 50px;
+font-weight: lighter;
+margin-bottom: 10px;
+}
+
+footer{
+background-color: white;
+text-align: center;
+height: 10px;
+
+}
